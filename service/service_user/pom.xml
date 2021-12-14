@@ -11,5 +11,12 @@
 
     <artifactId>service_user</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.arthur</groupId>
+            <artifactId>service-cmn-client</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 
 </project>

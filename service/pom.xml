@@ -15,6 +15,14 @@
     <version>1.0</version>
     <modules>
         <module>service_user</module>
+        <module>service-hosp</module>
+        <module>service-cmn</module>
+        <module>service-msm</module>
+        <module>service-oss</module>
+        <module>service-person</module>
+        <module>service-order</module>
+        <module>service-task</module>
+        <module>service-statistics</module>
     </modules>
     <dependencies>
         <dependency>
@@ -59,10 +67,10 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
         <!-- 流量控制 -->
-        <dependency>
+        <!--<dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
-        </dependency>
+        </dependency>-->
     </dependencies>
     <build>
         <plugins>
